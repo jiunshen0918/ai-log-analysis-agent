@@ -1,0 +1,7 @@
+rules:
+  - id: detect-hardcoded-google-api-key
+    pattern-regex: AIzaSy[A-Za-z0-9_\-]*
+    message: "Security Warning: A potential hardcoded Google API key or key prefix starting with 'AIzaSy' has been detected. Hardcoding credentials poses a severe security risk. Please use environment variables or a secure secret manager instead."
+    languages:
+      - python
+    severity: ERROR

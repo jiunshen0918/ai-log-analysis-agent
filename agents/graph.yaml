@@ -1,0 +1,25 @@
+nodes:
+  - name: load_logs
+    type: python
+    module: agents.skills.load_logs
+  - name: analyze_logs
+    type: python
+    module: agents.skills.analyze_logs
+  - name: generate_observations
+    type: python
+    module: agents.skills.generate_observations
+  - name: auto_approve
+    type: python
+    module: agents.skills.auto_approve
+  - name: generate_report
+    type: python
+    module: agents.skills.generate_report
+edges:
+  - from: load_logs
+    to: analyze_logs
+  - from: analyze_logs
+    to: generate_observations
+  - from: generate_observations
+    to: auto_approve
+  - from: auto_approve
+    to: generate_report
