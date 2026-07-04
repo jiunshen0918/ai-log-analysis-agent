@@ -5,6 +5,12 @@ nodes:
   - name: analyze_logs
     type: python
     module: agents.skills.analyze_logs
+  - name: security_checkpoint
+    type: python
+    module: agents.skills.security_checkpoint
+  - name: human_review
+    type: python
+    module: agents.skills.human_review
   - name: generate_observations
     type: python
     module: agents.skills.generate_observations
@@ -18,7 +24,11 @@ edges:
   - from: load_logs
     to: analyze_logs
   - from: analyze_logs
+    to: security_checkpoint
+  - from: security_checkpoint
     to: generate_observations
+  - from: security_checkpoint
+    to: human_review
   - from: generate_observations
     to: auto_approve
   - from: auto_approve
