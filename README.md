@@ -1,7 +1,7 @@
 # ai-log-analysis-agent
 
 Simple ReAct agent
-Agent generated with `agents-cli` version `1.0.0`
+Agent generated with `agents-cli` version `1.0.0` 
 
 ## Project Structure
 
