@@ -1,13 +1,18 @@
-2026-07-02 00:00:00 INFO Antivirus service started.
-2026-07-02 02:10:15 INFO Scheduled scan started (Quick Scan).
-2026-07-02 02:10:45 INFO Scan completed: 0 threats detected.
-2026-07-02 04:30:00 INFO Signature database updated to version 2026.07.02.
-2026-07-02 07:45:20 WARN Low disk space on drive C: (5% free).
-2026-07-02 09:15:33 INFO Scheduled full scan started.
-2026-07-02 10:05:10 ALERT Malware detected: Ransomware.Win32 (file: D:\\Downloads\\encryptor.exe).
-2026-07-02 10:05:45 INFO Quarantine action performed on D:\\Downloads\\encryptor.exe.
-2026-07-02 11:20:00 ERROR Failed to update signatures: server unreachable (error code 0x800704CF).
-2026-07-02 13:30:00 INFO Scheduled scan started (Full Scan).
-2026-07-02 14:12:30 INFO Scan completed: 2 threats detected and removed.
-2026-07-02 18:00:00 INFO Signature update succeeded.
-2026-07-02 22:45:12 WARN Real-time protection disabled by user.
+[2026-07-02 00:04:55] INFO: Antivirus service started.
+[2026-07-02 01:10:00] INFO: Scheduled quick scan started.
+[2026-07-02 01:25:30] INFO: Scheduled quick scan completed. No threats found.
+[2026-07-02 02:20:12] INFO: Signature database updated to version 20260702.
+[2026-07-02 03:55:40] WARN: Suspicious script detected: "PowerShell-Obfuscated.ps1" in C:\\Users\\shen0\\Scripts. Quarantined.
+[2026-07-02 04:30:00] INFO: Real-time protection active.
+[2026-07-02 06:00:00] INFO: User initiated scan of E:\\ExternalDrive.
+[2026-07-02 06:45:22] INFO: Scan completed. Detected 2 threats: Trojan:Win32/AgentTesla, Worm:Win32/Conficker. Both removed.
+[2026-07-02 08:15:01] ERROR: Failed to verify signature package integrity: checksum mismatch.
+[2026-07-02 09:30:00] INFO: System health check passed.
+[2026-07-02 11:45:10] WARN: High CPU usage detected from antivirus engine (45%).
+[2026-07-02 13:00:00] INFO: Scheduled full system scan started.
+[2026-07-02 14:10:55] INFO: Scheduled full system scan completed. No threats found.
+[2026-07-02 16:45:33] INFO: Signature database updated to version 20260702b.
+[2026-07-02 18:20:00] INFO: Scheduled quick scan started.
+[2026-07-02 18:35:12] INFO: Scheduled quick scan completed. No threats found.
+[2026-07-02 20:00:00] ERROR: Unexpected shutdown during scheduled full scan. Scan cancelled.
+[2026-07-02 22:10:00] INFO: Antivirus service terminated for routine maintenance.

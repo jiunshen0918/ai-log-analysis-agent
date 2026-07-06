@@ -1,19 +1,18 @@
-2026-07-04 00:00:00 INFO Antivirus service started.
-2026-07-04 01:20:05 INFO Scheduled quick scan started.
-2026-07-04 01:20:35 INFO Scan completed: 0 threats detected.
-2026-07-04 03:10:00 INFO Signature database updated to version 2026.07.04.
-2026-07-04 04:45:12 WARN Low memory condition detected during scan.
-2026-07-04 06:30:22 INFO Scheduled full scan started.
-2026-07-04 07:15:40 ALERT Malware detected: Spyware.Generic (file: C:\\Users\\test\\spyware.exe).
-2026-07-04 07:16:10 INFO Quarantine action performed on C:\\Users\\test\\spyware.exe.
-2026-07-04 08:55:00 ERROR Failed to update definitions: proxy authentication required (error code 0x800704c9).
-2026-07-04 10:00:00 INFO Scheduled scan started (Full Scan).
-2026-07-04 10:45:30 INFO Scan completed: 1 threat removed.
-2026-07-04 12:20:00 WARN Real-time protection temporarily disabled for performance.
-2026-07-04 14:05:15 ALERT Malware detected: Trojan.Dropper (file: D:\\Temp\\dropper.exe).
-2026-07-04 14:05:45 INFO Quarantine action performed on D:\\Temp\\dropper.exe.
-2026-07-04 16:30:00 INFO Signature update succeeded.
-2026-07-04 18:55:10 ERROR Unexpected shutdown during scan (error code 0x8000000d).
-2026-07-04 20:10:00 INFO Antivirus service resumed.
-2026-07-04 22:45:00 INFO Scheduled quick scan started.
-2026-07-04 22:45:30 INFO Scan completed: 0 threats detected.
+[2026-07-04 00:02:10] INFO: Antivirus service started.
+[2026-07-04 01:05:00] INFO: Scheduled quick scan started.
+[2026-07-04 01:20:45] INFO: Scheduled quick scan completed. No threats found.
+[2026-07-04 02:10:33] INFO: Signature database updated to version 20260704.
+[2026-07-04 03:45:12] WARN: Detected potentially unwanted program: "BrowserHijacker.Win32.Generic" in C:\\Users\\shen0\\Downloads\\update.exe. Quarantined.
+[2026-07-04 04:55:00] INFO: Real-time protection active.
+[2026-07-04 06:30:00] INFO: User initiated scan of D:\\Media.
+[2026-07-04 07:15:27] INFO: Scan completed. Detected 1 threat: Trojan:Win32/SpyEye. Removed.
+[2026-07-04 08:00:00] ERROR: Signature update failed: server returned 503 Service Unavailable.
+[2026-07-04 09:30:00] INFO: System health check passed.
+[2026-07-04 11:20:08] WARN: High memory usage by antivirus engine (52%).
+[2026-07-04 12:00:00] INFO: Scheduled full system scan started.
+[2026-07-04 13:45:55] INFO: Scheduled full system scan completed. No threats found.
+[2026-07-04 15:30:22] INFO: Signature database updated to version 20260704b.
+[2026-07-04 17:00:00] INFO: Scheduled quick scan started.
+[2026-07-04 17:15:40] INFO: Scheduled quick scan completed. No threats found.
+[2026-07-04 19:55:10] ERROR: Unexpected shutdown during scheduled quick scan. Scan cancelled.
+[2026-07-04 21:45:00] INFO: Antivirus service terminated for nightly maintenance.

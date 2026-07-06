@@ -1,16 +1,18 @@
-2026-07-03 00:00:00 INFO Antivirus service started.
-2026-07-03 01:30:10 INFO Scheduled quick scan started.
-2026-07-03 01:30:40 INFO Scan completed: 0 threats detected.
-2026-07-03 03:15:00 INFO Signature database updated to version 2026.07.03.
-2026-07-03 06:45:22 WARN High CPU usage detected during real-time scanning.
-2026-07-03 08:10:55 INFO Scheduled full scan started.
-2026-07-03 09:00:30 ALERT Malware detected: Adware.Generic (file: C:\\Temp\\adware.exe).
-2026-07-03 09:01:00 INFO Quarantine action performed on C:\\Temp\\adware.exe.
-2026-07-03 10:20:15 ERROR Failed to access cloud backup (error code 0x80070005).
-2026-07-03 12:00:00 INFO Scheduled scan started (Full Scan).
-2026-07-03 12:45:20 INFO Scan completed: 0 threats detected.
-2026-07-03 14:30:00 WARN Disk scan skipped due to insufficient permissions.
-2026-07-03 17:55:10 ALERT Malware detected: Worm.Win32 (file: D:\\Documents\\worm.exe).
-2026-07-03 17:55:45 INFO Quarantine action performed on D:\\Documents\\worm.exe.
-2026-07-03 20:10:00 INFO Signature update succeeded.
-2026-07-03 22:40:30 ERROR Real-time protection encountered an unexpected error and stopped.
+[2026-07-03 00:03:20] INFO: Antivirus service started.
+[2026-07-03 01:15:00] INFO: Scheduled full system scan started.
+[2026-07-03 02:05:45] INFO: Scheduled full system scan completed. No threats found.
+[2026-07-03 02:30:10] INFO: Signature database updated to version 20260703.
+[2026-07-03 03:40:22] WARN: Potentially unwanted application detected: "Tool.Win32.AdwareZYX" in C:\\Program Files\\Installer.exe. Quarantined.
+[2026-07-03 04:50:00] INFO: Real-time protection active.
+[2026-07-03 06:20:00] INFO: User initiated scan of C:\\Projects.
+[2026-07-03 06:55:30] INFO: Scan completed. Detected 1 threat: Ransomware.Win32/Locky. Removed.
+[2026-07-03 08:10:15] ERROR: Failed to download signature update: TLS handshake failure.
+[2026-07-03 09:30:00] INFO: System health check passed.
+[2026-07-03 11:00:00] WARN: Low memory condition detected. Available RAM < 1GB.
+[2026-07-03 12:45:12] INFO: Scheduled quick scan started.
+[2026-07-03 13:00:05] INFO: Scheduled quick scan completed. No threats found.
+[2026-07-03 15:30:00] INFO: Signature database updated to version 20260703b.
+[2026-07-03 17:00:00] INFO: Scheduled full system scan started.
+[2026-07-03 18:10:20] INFO: Scheduled full system scan completed. No threats found.
+[2026-07-03 19:45:55] ERROR: Unexpected shutdown during scan. Scan cancelled.
+[2026-07-03 22:00:00] INFO: Antivirus service terminated for maintenance.
