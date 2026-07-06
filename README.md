@@ -18,7 +18,7 @@ ai-log-analysis-agent/
 
 > 💡 **Tip:** Use [Antigravity CLI](https://antigravity.google/) for AI-assisted development - project context is pre-configured in `GEMINI.md`.
 
-## Requirements
+## Requirementss
 
 Before you begin, ensure you have:
 - **uv**: Python package manager (used for all dependency management in this project) - [Install](https://docs.astral.sh/uv/getting-started/installation/) ([add packages](https://docs.astral.sh/uv/concepts/dependencies/) with `uv add <package>`)
@@ -47,7 +47,7 @@ agents-cli playground
 ```
 
 You can also use features from the [ADK](https://adk.dev/) CLI with `uv run adk`.
-
+ 
 ## Commands
 
 | Command              | Description                                                                                 |
